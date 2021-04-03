@@ -1,0 +1,7 @@
+{
+  "name": "monorepo-tsconfig-experiment",
+  "scripts": {
+    "install-all": "cd apps/app; npm i; cd ../../libs/lib; npm i"
+  },
+  "private": true
+}
