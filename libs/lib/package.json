@@ -2,7 +2,7 @@
   "name": "lib",
   "version": "0.0.0",
   "license": "MIT",
-  "main": "src/index.ts",
+  "main": "dist/src/index.js",
   "scripts": {
     "test": "jest"
   },
