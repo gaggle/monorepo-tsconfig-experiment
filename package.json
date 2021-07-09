@@ -3,5 +3,8 @@
   "scripts": {
     "install-all": "cd apps/app; npm i; cd ../../libs/lib; npm i"
   },
-  "private": true
+  "private": true,
+  "devDependencies": {
+    "typescript": "^4.3.5"
+  }
 }
