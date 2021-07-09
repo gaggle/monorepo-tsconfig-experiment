@@ -1,7 +1,8 @@
 {
   "name": "monorepo-tsconfig-experiment",
   "scripts": {
-    "install-all": "cd apps/app; npm i; cd ../../libs/lib; npm i"
+    "build": "tsc -b",
+    "install-all": "npm i && cd apps/app && npm i && cd ../../libs/lib; npm i"
   },
   "private": true,
   "devDependencies": {
